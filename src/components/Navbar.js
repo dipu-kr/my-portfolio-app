@@ -29,7 +29,9 @@ const Navbar = () => {
           <li onClick={menuControl}>Skills</li>
         </Link>
         <Link to="#projects">
-          <li onClick={menuControl}>Projects</li>
+          <li onClick={menuControl} className="last-li">
+            Projects
+          </li>
         </Link>
       </ul>
     </nav>
