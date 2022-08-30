@@ -18,3 +18,8 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   scroll-behavior: smooth;
 }
+.app-container{
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
