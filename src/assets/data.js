@@ -2,6 +2,7 @@ import Proj1 from "./images/Proj1.jpeg";
 import Proj2 from "./images/Proj2.jpeg";
 import Proj3 from "./images/Proj3.webp";
 import Proj4 from "./images/Proj4.jpeg";
+import Proj5 from "./images/Proj5.jpeg";
 
 export const dataList = [
   {
@@ -35,5 +36,13 @@ export const dataList = [
     skills: "React,Redux,BootStrap,MaterialUI",
     link: "https://react-redux-todo-app1.netlify.app",
     githubLink: "https://github.com/dipu-kr/react-redux-todo-app",
+  },
+  {
+    id: 5,
+    name: "Web Page Layout",
+    image: Proj5,
+    skills: "HTML,CSS",
+    link: "https://html-css-assign-pro.netlify.app",
+    githubLink: "https://github.com/dipu-kr/assignment-repo",
   },
 ];
