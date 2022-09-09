@@ -3,6 +3,7 @@ import Proj2 from "./images/Proj2.jpeg";
 import Proj3 from "./images/Proj3.webp";
 import Proj4 from "./images/Proj4.jpeg";
 import Proj5 from "./images/Proj5.jpeg";
+import Proj6 from "./images/Proj6.jpeg";
 
 export const dataList = [
   {
@@ -44,5 +45,13 @@ export const dataList = [
     skills: "HTML,CSS",
     link: "https://html-css-assign-pro.netlify.app",
     githubLink: "https://github.com/dipu-kr/assignment-repo",
+  },
+  {
+    id: 6,
+    name: "Pizza App",
+    image: Proj6,
+    skills: "React,Redux-Toolkit,CSS3 and Localstorage",
+    link: "https://pizza-app-b3836e.netlify.app",
+    githubLink: "https://github.com/dipu-kr/pizza-app",
   },
 ];
