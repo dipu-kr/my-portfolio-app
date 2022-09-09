@@ -34,7 +34,7 @@ export const dataList = [
     id: 4,
     name: "ToDo App",
     image: Proj4,
-    skills: "React,Redux,BootStrap,MaterialUI",
+    skills: "React,Redux,BootStrap,Localstorage",
     link: "https://react-redux-todo-app1.netlify.app",
     githubLink: "https://github.com/dipu-kr/react-redux-todo-app",
   },
