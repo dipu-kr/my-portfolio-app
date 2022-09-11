@@ -3,10 +3,14 @@ import "../css/about.css";
 import { AiFillLinkedin } from "react-icons/ai";
 import { BsGithub, BsWhatsapp } from "react-icons/bs";
 import { BiPhoneCall } from "react-icons/bi";
+import myimg from "../assets/my_image/my1.jpg";
 
 const About = () => {
   return (
     <section className="about-main" id="about">
+      <div className="my-img-div">
+        <img src={myimg} alt="my-img" />
+      </div>
       <div className="about-name-div">
         <h1>Hi, I'm Dipu Kumar</h1>
       </div>
