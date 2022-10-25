@@ -18,7 +18,7 @@ const Skills = () => {
           <div className="lang-main-div">
             <h2>Languages</h2>
             <div className="lang-div">
-              <p>JavaScript, TypeScript.</p>
+              <p>JavaScript, TypeScript, Python.</p>
             </div>
           </div>
         </div>
