@@ -2,7 +2,7 @@ import Proj1 from "./images/Proj1.jpeg";
 import Proj2 from "./images/Proj2.jpeg";
 import Proj3 from "./images/Proj3.webp";
 import Proj4 from "./images/Proj4.jpeg";
-import Proj5 from "./images/Proj5.jpeg";
+import Proj5 from "./images/Proj5.png";
 import Proj6 from "./images/Proj6.jpeg";
 import Proj7 from "./images/Proj7.jpeg";
 
@@ -11,9 +11,9 @@ export const dataList = [
     id: 1,
     name: "Web Page Layout",
     image: Proj5,
-    skills: "HTML,CSS3",
-    link: "https://html-css-assign-pro.netlify.app",
-    githubLink: "https://github.com/dipu-kr/assignment-repo",
+    skills: "React,CSS3",
+    link: "https://modern-ui-app-addb50.netlify.app",
+    githubLink: "https://github.com/dipu-kr/modern_ui_app.git",
   },
   {
     id: 2,
