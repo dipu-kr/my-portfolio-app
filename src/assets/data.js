@@ -9,7 +9,7 @@ import Proj7 from "./images/Proj7.jpeg";
 export const dataList = [
   {
     id: 1,
-    name: "Web Page Layout",
+    name: "Modern UI App",
     image: Proj5,
     skills: "React,CSS3",
     link: "https://modern-ui-app-addb50.netlify.app",
