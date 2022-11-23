@@ -1,4 +1,4 @@
-import Proj1 from "./images/Proj1.jpeg";
+import Proj1 from "./images/Proj1.png";
 import Proj2 from "./images/Proj2.jpeg";
 import Proj3 from "./images/Proj3.webp";
 import Proj4 from "./images/Proj4.jpeg";
@@ -17,11 +17,11 @@ export const dataList = [
   },
   {
     id: 2,
-    name: "Tic Tac Toe",
+    name: "Restaurant App",
     image: Proj1,
-    skills: "JavaScript,HTML,CSS3",
-    link: "https://tic-tac-toe-dipu.netlify.app",
-    githubLink: "https://github.com/dipu-kr/tic_tac_toe_game",
+    skills: "ReactJs,CSS3",
+    link: "https://restaurant-app-0d8152.netlify.app",
+    githubLink: "https://github.com/dipu-kr/modern-restaurant-app",
   },
   {
     id: 3,
@@ -62,7 +62,6 @@ export const dataList = [
     image: Proj7,
     skills: "React,CSS3",
     link: "https://heartfelt-toffee-1e8b23.netlify.app",
-    githubLink:
-      "https://github.com/dipu-kr/totalitycrop-frontend-challenge.git",
+    githubLink: "https://github.com/dipu-kr/totalitycrop-frontend-challenge",
   },
 ];
