@@ -12,7 +12,9 @@ const Navbar = () => {
   return (
     <nav className="nav-main">
       <div className="logo-div">
-        <h2 className="logo">D</h2>
+        <h2 className="logo">
+          D<span>K</span>
+        </h2>
       </div>
       <div className="menu-div" onClick={menuControl}>
         {menu ? (
@@ -25,12 +27,18 @@ const Navbar = () => {
         <Link to="#about">
           <li onClick={menuControl}>About</li>
         </Link>
+        <Link to="#proficiencies">
+          <li onClick={menuControl}>proficiencies</li>
+        </Link>
         <Link to="#skills">
           <li onClick={menuControl}>Skills</li>
         </Link>
         <Link to="#projects">
+          <li onClick={menuControl}>Projects</li>
+        </Link>
+        <Link to="#interest">
           <li onClick={menuControl} className="last-li">
-            Projects
+            Interest
           </li>
         </Link>
       </ul>
