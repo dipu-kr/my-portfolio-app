@@ -1,5 +1,4 @@
 import Proj1 from "./images/Proj1.png";
-import Proj2 from "./images/Proj2.jpeg";
 import Proj3 from "./images/Proj3.webp";
 import Proj4 from "./images/Proj4.jpeg";
 import Proj5 from "./images/Proj5.png";
@@ -23,16 +22,9 @@ export const dataList = [
     link: "https://restaurant-app-0d8152.netlify.app",
     githubLink: "https://github.com/dipu-kr/modern-restaurant-app",
   },
+
   {
     id: 3,
-    name: "Static React App",
-    image: Proj2,
-    skills: "React,Bootstrap",
-    link: "https://basic-react-app-design.netlify.app",
-    githubLink: "https://github.com/dipu-kr/basic-react-app",
-  },
-  {
-    id: 4,
     name: "E-Commerce App with API",
     image: Proj3,
     skills: "React,BootStrap,React-Icons",
@@ -40,7 +32,7 @@ export const dataList = [
     githubLink: "https://github.com/dipu-kr/smalll_e-comm_site",
   },
   {
-    id: 5,
+    id: 4,
     name: "ToDo App",
     image: Proj4,
     skills: "React,Redux,BootStrap,Localstorage",
@@ -49,7 +41,7 @@ export const dataList = [
   },
 
   {
-    id: 6,
+    id: 5,
     name: "Pizza App",
     image: Proj6,
     skills: "React,Redux-Toolkit,CSS3 and Localstorage",
@@ -57,7 +49,7 @@ export const dataList = [
     githubLink: "https://github.com/dipu-kr/pizza-app",
   },
   {
-    id: 7,
+    id: 6,
     name: "Tesla Clone",
     image: Proj7,
     skills: "React,CSS3",

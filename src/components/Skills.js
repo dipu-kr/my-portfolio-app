@@ -5,7 +5,7 @@ import { DiCss3, DiGitMerge, DiResponsive } from "react-icons/di";
 import { BsBootstrapFill } from "react-icons/bs";
 import { TbBrandJavascript } from "react-icons/tb";
 import { FaReact } from "react-icons/fa";
-import { SiRedux, SiExpress, SiMongodb, SiClockify } from "react-icons/si";
+import { SiRedux, SiJquery, SiClockify } from "react-icons/si";
 import { SlRocket } from "react-icons/sl";
 import { IoLogoNodejs } from "react-icons/io";
 
@@ -52,6 +52,12 @@ const Skills = () => {
         </div>
         <div>
           <span>
+            <SiJquery size={47} style={{ color: "#2471a3" }} className="icon" />
+          </span>
+          <span>Jquery</span>
+        </div>
+        <div>
+          <span>
             <FaReact
               size={50}
               style={{ color: "lightblue" }}
@@ -76,26 +82,7 @@ const Skills = () => {
           </span>
           <span>NODE</span>
         </div>
-        <div>
-          <span>
-            <SiExpress
-              size={50}
-              style={{ color: "#616A6B" }}
-              className="icon"
-            />
-          </span>
-          <span>EXPRESS</span>
-        </div>
-        <div>
-          <span>
-            <SiMongodb
-              size={50}
-              style={{ color: "#145A32" }}
-              className="icon"
-            />
-          </span>
-          <span>MONGODB</span>
-        </div>
+
         <div>
           <span>
             <DiGitMerge

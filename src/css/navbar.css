@@ -84,6 +84,9 @@ ul a li:hover:after {
   .nav-main {
     padding: 0px;
   }
+  .logo span {
+    left: 18px;
+  }
   .menu-div {
     display: block;
     display: flex;
